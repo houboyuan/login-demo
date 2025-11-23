@@ -1,5 +1,5 @@
 // 后端API基础URL - 需要替换为你的实际部署URL
-const API_BASE_URL = 'https://your-backend-url.herokuapp.com'; // 或你的其他部署地址
+const API_BASE_URL = 'https://login-demo-1-5prv.onrender.com'; // 或你的其他部署地址
 
 // 检查登录状态
 async function checkAuthStatus() {
@@ -138,4 +138,5 @@ function handleAuthCallback() {
 }
 
 // 页面加载时检查认证状态
+
 document.addEventListener('DOMContentLoaded', checkAuthStatus);
